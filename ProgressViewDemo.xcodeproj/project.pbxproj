@@ -31,6 +31,9 @@
 		778808131E11029700803273 /* RoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 778808121E11029700803273 /* RoundViewController.m */; };
 		9434CD9E1F21A6B1000E4187 /* UIView+RadarAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9434CD9D1F21A6B1000E4187 /* UIView+RadarAnimation.m */; };
 		9434CDA11F21A722000E4187 /* RadarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9434CDA01F21A722000E4187 /* RadarViewController.m */; };
+		944DCAD31F21EEB4004977AB /* LXCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 944DCAD21F21EEB4004977AB /* LXCircle.m */; };
+		944DCAD61F21EEC6004977AB /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 944DCAD51F21EEC6004977AB /* UIColor+Expanded.m */; };
+		944DCAD91F21EEDE004977AB /* Arc2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944DCAD81F21EEDE004977AB /* Arc2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +100,12 @@
 		9434CD9D1F21A6B1000E4187 /* UIView+RadarAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RadarAnimation.m"; sourceTree = "<group>"; };
 		9434CD9F1F21A722000E4187 /* RadarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarViewController.h; sourceTree = "<group>"; };
 		9434CDA01F21A722000E4187 /* RadarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarViewController.m; sourceTree = "<group>"; };
+		944DCAD11F21EEB4004977AB /* LXCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXCircle.h; sourceTree = "<group>"; };
+		944DCAD21F21EEB4004977AB /* LXCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXCircle.m; sourceTree = "<group>"; };
+		944DCAD41F21EEC6004977AB /* UIColor+Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Expanded.h"; sourceTree = "<group>"; };
+		944DCAD51F21EEC6004977AB /* UIColor+Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Expanded.m"; sourceTree = "<group>"; };
+		944DCAD71F21EEDE004977AB /* Arc2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arc2ViewController.h; sourceTree = "<group>"; };
+		944DCAD81F21EEDE004977AB /* Arc2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Arc2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +222,8 @@
 				771067341E1215C1001E87EE /* ShipeViewController.m */,
 				9434CD9F1F21A722000E4187 /* RadarViewController.h */,
 				9434CDA01F21A722000E4187 /* RadarViewController.m */,
+				944DCAD71F21EEDE004977AB /* Arc2ViewController.h */,
+				944DCAD81F21EEDE004977AB /* Arc2ViewController.m */,
 				778808061E10FC3900803273 /* ProgressViewCategory */,
 				778807DC1E10FC1500803273 /* Main.storyboard */,
 				778807DF1E10FC1500803273 /* Assets.xcassets */,
@@ -226,6 +237,8 @@
 		778807D31E10FC1500803273 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				944DCAD41F21EEC6004977AB /* UIColor+Expanded.h */,
+				944DCAD51F21EEC6004977AB /* UIColor+Expanded.m */,
 				778807D41E10FC1500803273 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -253,6 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				771067361E121686001E87EE /* chuan@2x.png */,
+				944DCAD01F21EEA7004977AB /* 圆弧进度2 */,
 				9434CD9B1F21A686000E4187 /* 雷达动画 */,
 				7710672F1E1214D3001E87EE /* 正余弦动画 */,
 				7710671C1E121491001E87EE /* 加载动画 */,
@@ -270,6 +284,15 @@
 				9434CD9D1F21A6B1000E4187 /* UIView+RadarAnimation.m */,
 			);
 			path = "雷达动画";
+			sourceTree = "<group>";
+		};
+		944DCAD01F21EEA7004977AB /* 圆弧进度2 */ = {
+			isa = PBXGroup;
+			children = (
+				944DCAD11F21EEB4004977AB /* LXCircle.h */,
+				944DCAD21F21EEB4004977AB /* LXCircle.m */,
+			);
+			path = "圆弧进度2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -412,6 +435,7 @@
 			files = (
 				9434CDA11F21A722000E4187 /* RadarViewController.m in Sources */,
 				9434CD9E1F21A6B1000E4187 /* UIView+RadarAnimation.m in Sources */,
+				944DCAD91F21EEDE004977AB /* Arc2ViewController.m in Sources */,
 				771067321E121517001E87EE /* shipeAnimation.m in Sources */,
 				7710672A1E121491001E87EE /* LXHubView.m in Sources */,
 				778808131E11029700803273 /* RoundViewController.m in Sources */,
@@ -419,11 +443,13 @@
 				7710671B1E1213C1001E87EE /* WaveViewController.m in Sources */,
 				7710672D1E121491001E87EE /* LXWaveProgress.m in Sources */,
 				7710672C1E121491001E87EE /* LXWave.m in Sources */,
+				944DCAD31F21EEB4004977AB /* LXCircle.m in Sources */,
 				778807DB1E10FC1500803273 /* ViewController.m in Sources */,
 				778808101E11028E00803273 /* ArcViewController.m in Sources */,
 				7710672B1E121491001E87EE /* ArcProgress.m in Sources */,
 				7710672E1E121491001E87EE /* CircleView.m in Sources */,
 				778807D81E10FC1500803273 /* AppDelegate.m in Sources */,
+				944DCAD61F21EEC6004977AB /* UIColor+Expanded.m in Sources */,
 				771067111E1212E7001E87EE /* HubViewController.m in Sources */,
 				778807D51E10FC1500803273 /* main.m in Sources */,
 				7788080C1E10FF0900803273 /* BasicViewController.m in Sources */,
