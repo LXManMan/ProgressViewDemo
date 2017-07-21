@@ -29,6 +29,8 @@
 		7788080C1E10FF0900803273 /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7788080B1E10FF0900803273 /* BasicViewController.m */; };
 		778808101E11028E00803273 /* ArcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7788080F1E11028E00803273 /* ArcViewController.m */; };
 		778808131E11029700803273 /* RoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 778808121E11029700803273 /* RoundViewController.m */; };
+		9434CD9E1F21A6B1000E4187 /* UIView+RadarAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9434CD9D1F21A6B1000E4187 /* UIView+RadarAnimation.m */; };
+		9434CDA11F21A722000E4187 /* RadarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9434CDA01F21A722000E4187 /* RadarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +93,10 @@
 		7788080F1E11028E00803273 /* ArcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcViewController.m; sourceTree = "<group>"; };
 		778808111E11029700803273 /* RoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundViewController.h; sourceTree = "<group>"; };
 		778808121E11029700803273 /* RoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundViewController.m; sourceTree = "<group>"; };
+		9434CD9C1F21A6B1000E4187 /* UIView+RadarAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RadarAnimation.h"; sourceTree = "<group>"; };
+		9434CD9D1F21A6B1000E4187 /* UIView+RadarAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RadarAnimation.m"; sourceTree = "<group>"; };
+		9434CD9F1F21A722000E4187 /* RadarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarViewController.h; sourceTree = "<group>"; };
+		9434CDA01F21A722000E4187 /* RadarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +211,8 @@
 				7710671A1E1213C1001E87EE /* WaveViewController.m */,
 				771067331E1215C1001E87EE /* ShipeViewController.h */,
 				771067341E1215C1001E87EE /* ShipeViewController.m */,
+				9434CD9F1F21A722000E4187 /* RadarViewController.h */,
+				9434CDA01F21A722000E4187 /* RadarViewController.m */,
 				778808061E10FC3900803273 /* ProgressViewCategory */,
 				778807DC1E10FC1500803273 /* Main.storyboard */,
 				778807DF1E10FC1500803273 /* Assets.xcassets */,
@@ -245,6 +253,7 @@
 			isa = PBXGroup;
 			children = (
 				771067361E121686001E87EE /* chuan@2x.png */,
+				9434CD9B1F21A686000E4187 /* 雷达动画 */,
 				7710672F1E1214D3001E87EE /* 正余弦动画 */,
 				7710671C1E121491001E87EE /* 加载动画 */,
 				7710671F1E121491001E87EE /* 扇形进度 */,
@@ -252,6 +261,15 @@
 				771067271E121491001E87EE /* 圆弧进度 */,
 			);
 			path = ProgressViewCategory;
+			sourceTree = "<group>";
+		};
+		9434CD9B1F21A686000E4187 /* 雷达动画 */ = {
+			isa = PBXGroup;
+			children = (
+				9434CD9C1F21A6B1000E4187 /* UIView+RadarAnimation.h */,
+				9434CD9D1F21A6B1000E4187 /* UIView+RadarAnimation.m */,
+			);
+			path = "雷达动画";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,6 +410,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9434CDA11F21A722000E4187 /* RadarViewController.m in Sources */,
+				9434CD9E1F21A6B1000E4187 /* UIView+RadarAnimation.m in Sources */,
 				771067321E121517001E87EE /* shipeAnimation.m in Sources */,
 				7710672A1E121491001E87EE /* LXHubView.m in Sources */,
 				778808131E11029700803273 /* RoundViewController.m in Sources */,
