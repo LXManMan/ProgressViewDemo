@@ -1,0 +1,47 @@
+//
+//  PrefixHeader.pch
+//  testDemo
+//
+//  Created by 漫漫 on 2017/7/22.
+//  Copyright © 2017年 漫漫. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define Device_Width  [[UIScreen mainScreen] bounds].size.width//获取屏幕宽高
+#define Device_Height [[UIScreen mainScreen] bounds].size.height
+
+
+#define LBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define LBRandomColor LBColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+#define FTBackColor [UIColor hexStringToColor:@"ebf0f2"] //灰色主背景
+#define FTWS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+
+//宏定义字体大小
+
+#define Mscale Device_Width /375.0
+#define  Font(f) [UIFont systemFontOfSize:(f)]
+#define kSystemVersion [[[UIDevice currentDevice] systemVersion] floatValue]
+#define currentVersion  [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]
+#define LXNotificationCenter [NSNotificationCenter defaultCenter]
+#define UserDefaults     [NSUserDefaults standardUserDefaults]
+#define NAVH 64
+#define TABBARH 49
+#define REDPOINTW 5.0    //红点宽度
+
+#ifdef DEBUG
+#define NSLog(format, ...) NSLog((@"[%@] [Line %d] " format), [[[NSString stringWithFormat:@"%s", __PRETTY_FUNCTION__] componentsSeparatedByString:@"["][1] componentsSeparatedByString:@"]"][0], __LINE__, ##__VA_ARGS__)
+#else
+
+
+#define NSLog(...)
+
+
+#endif
+
+#import "UIView+Frame.h"
+#import "UIColor+Expanded.h"
+#endif /* PrefixHeader_pch */

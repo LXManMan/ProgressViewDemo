@@ -57,6 +57,7 @@
         [_datas addObject:@"Wave"];
         [_datas addObject:@"Shipe"];
         [_datas addObject:@"Radar"];
+        [_datas addObject:@"AQiYi"];
     }
     return _datas;
 }

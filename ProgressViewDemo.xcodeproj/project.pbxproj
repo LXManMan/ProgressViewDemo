@@ -32,8 +32,25 @@
 		9434CD9E1F21A6B1000E4187 /* UIView+RadarAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9434CD9D1F21A6B1000E4187 /* UIView+RadarAnimation.m */; };
 		9434CDA11F21A722000E4187 /* RadarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9434CDA01F21A722000E4187 /* RadarViewController.m */; };
 		944DCAD31F21EEB4004977AB /* LXCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 944DCAD21F21EEB4004977AB /* LXCircle.m */; };
-		944DCAD61F21EEC6004977AB /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 944DCAD51F21EEC6004977AB /* UIColor+Expanded.m */; };
 		944DCAD91F21EEDE004977AB /* Arc2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944DCAD81F21EEDE004977AB /* Arc2ViewController.m */; };
+		C3CC024C1F23891400F659FD /* ChineseToPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC022D1F23891400F659FD /* ChineseToPinyin.m */; };
+		C3CC024D1F23891400F659FD /* FTTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC022F1F23891400F659FD /* FTTextField.m */; };
+		C3CC024E1F23891400F659FD /* LxButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC02311F23891400F659FD /* LxButton.m */; };
+		C3CC024F1F23891400F659FD /* LXTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC02331F23891400F659FD /* LXTextView.m */; };
+		C3CC02501F23891400F659FD /* NSString+LXCalender.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC02351F23891400F659FD /* NSString+LXCalender.m */; };
+		C3CC02511F23891400F659FD /* QBQuSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC02371F23891400F659FD /* QBQuSegmentView.m */; };
+		C3CC02521F23891400F659FD /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC02391F23891400F659FD /* UIButton+ImageTitleSpacing.m */; };
+		C3CC02531F23891400F659FD /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC023B1F23891400F659FD /* UIColor+Expanded.m */; };
+		C3CC02541F23891400F659FD /* UIImage+colorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC023D1F23891400F659FD /* UIImage+colorImage.m */; };
+		C3CC02551F23891400F659FD /* UILabel+LXLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC023F1F23891400F659FD /* UILabel+LXLabel.m */; };
+		C3CC02561F23891400F659FD /* UITextField+TintAjust.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC02411F23891400F659FD /* UITextField+TintAjust.m */; };
+		C3CC02571F23891400F659FD /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC02431F23891400F659FD /* UIView+Frame.m */; };
+		C3CC02581F23891400F659FD /* UIView+FTCornerdious.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC02451F23891400F659FD /* UIView+FTCornerdious.m */; };
+		C3CC02591F23891400F659FD /* UIView+FTViewAdaptation.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC02471F23891400F659FD /* UIView+FTViewAdaptation.m */; };
+		C3CC025A1F23891400F659FD /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC02491F23891400F659FD /* UIView+Toast.m */; };
+		C3CC025B1F23891400F659FD /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC024B1F23891400F659FD /* UIViewAdditions.m */; };
+		C3CC025E1F23894B00F659FD /* AQiYiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC025D1F23894B00F659FD /* AQiYiViewController.m */; };
+		C3CC02621F23896300F659FD /* AQYAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3CC02611F23896300F659FD /* AQYAnimationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,10 +119,45 @@
 		9434CDA01F21A722000E4187 /* RadarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarViewController.m; sourceTree = "<group>"; };
 		944DCAD11F21EEB4004977AB /* LXCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXCircle.h; sourceTree = "<group>"; };
 		944DCAD21F21EEB4004977AB /* LXCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXCircle.m; sourceTree = "<group>"; };
-		944DCAD41F21EEC6004977AB /* UIColor+Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Expanded.h"; sourceTree = "<group>"; };
-		944DCAD51F21EEC6004977AB /* UIColor+Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Expanded.m"; sourceTree = "<group>"; };
 		944DCAD71F21EEDE004977AB /* Arc2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arc2ViewController.h; sourceTree = "<group>"; };
 		944DCAD81F21EEDE004977AB /* Arc2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Arc2ViewController.m; sourceTree = "<group>"; };
+		C3CC022A1F2388BD00F659FD /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C3CC022C1F23891400F659FD /* ChineseToPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseToPinyin.h; sourceTree = "<group>"; };
+		C3CC022D1F23891400F659FD /* ChineseToPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseToPinyin.m; sourceTree = "<group>"; };
+		C3CC022E1F23891400F659FD /* FTTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTTextField.h; sourceTree = "<group>"; };
+		C3CC022F1F23891400F659FD /* FTTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTTextField.m; sourceTree = "<group>"; };
+		C3CC02301F23891400F659FD /* LxButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxButton.h; sourceTree = "<group>"; };
+		C3CC02311F23891400F659FD /* LxButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxButton.m; sourceTree = "<group>"; };
+		C3CC02321F23891400F659FD /* LXTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXTextView.h; sourceTree = "<group>"; };
+		C3CC02331F23891400F659FD /* LXTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXTextView.m; sourceTree = "<group>"; };
+		C3CC02341F23891400F659FD /* NSString+LXCalender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LXCalender.h"; sourceTree = "<group>"; };
+		C3CC02351F23891400F659FD /* NSString+LXCalender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LXCalender.m"; sourceTree = "<group>"; };
+		C3CC02361F23891400F659FD /* QBQuSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBQuSegmentView.h; sourceTree = "<group>"; };
+		C3CC02371F23891400F659FD /* QBQuSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBQuSegmentView.m; sourceTree = "<group>"; };
+		C3CC02381F23891400F659FD /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
+		C3CC02391F23891400F659FD /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
+		C3CC023A1F23891400F659FD /* UIColor+Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Expanded.h"; sourceTree = "<group>"; };
+		C3CC023B1F23891400F659FD /* UIColor+Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Expanded.m"; sourceTree = "<group>"; };
+		C3CC023C1F23891400F659FD /* UIImage+colorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+colorImage.h"; sourceTree = "<group>"; };
+		C3CC023D1F23891400F659FD /* UIImage+colorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+colorImage.m"; sourceTree = "<group>"; };
+		C3CC023E1F23891400F659FD /* UILabel+LXLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LXLabel.h"; sourceTree = "<group>"; };
+		C3CC023F1F23891400F659FD /* UILabel+LXLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LXLabel.m"; sourceTree = "<group>"; };
+		C3CC02401F23891400F659FD /* UITextField+TintAjust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+TintAjust.h"; sourceTree = "<group>"; };
+		C3CC02411F23891400F659FD /* UITextField+TintAjust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TintAjust.m"; sourceTree = "<group>"; };
+		C3CC02421F23891400F659FD /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		C3CC02431F23891400F659FD /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		C3CC02441F23891400F659FD /* UIView+FTCornerdious.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FTCornerdious.h"; sourceTree = "<group>"; };
+		C3CC02451F23891400F659FD /* UIView+FTCornerdious.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FTCornerdious.m"; sourceTree = "<group>"; };
+		C3CC02461F23891400F659FD /* UIView+FTViewAdaptation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FTViewAdaptation.h"; sourceTree = "<group>"; };
+		C3CC02471F23891400F659FD /* UIView+FTViewAdaptation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FTViewAdaptation.m"; sourceTree = "<group>"; };
+		C3CC02481F23891400F659FD /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		C3CC02491F23891400F659FD /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		C3CC024A1F23891400F659FD /* UIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAdditions.h; sourceTree = "<group>"; };
+		C3CC024B1F23891400F659FD /* UIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAdditions.m; sourceTree = "<group>"; };
+		C3CC025C1F23894B00F659FD /* AQiYiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQiYiViewController.h; sourceTree = "<group>"; };
+		C3CC025D1F23894B00F659FD /* AQiYiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQiYiViewController.m; sourceTree = "<group>"; };
+		C3CC02601F23896300F659FD /* AQYAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQYAnimationView.h; sourceTree = "<group>"; };
+		C3CC02611F23896300F659FD /* AQYAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQYAnimationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +276,8 @@
 				9434CDA01F21A722000E4187 /* RadarViewController.m */,
 				944DCAD71F21EEDE004977AB /* Arc2ViewController.h */,
 				944DCAD81F21EEDE004977AB /* Arc2ViewController.m */,
+				C3CC025C1F23894B00F659FD /* AQiYiViewController.h */,
+				C3CC025D1F23894B00F659FD /* AQiYiViewController.m */,
 				778808061E10FC3900803273 /* ProgressViewCategory */,
 				778807DC1E10FC1500803273 /* Main.storyboard */,
 				778807DF1E10FC1500803273 /* Assets.xcassets */,
@@ -237,8 +291,8 @@
 		778807D31E10FC1500803273 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				944DCAD41F21EEC6004977AB /* UIColor+Expanded.h */,
-				944DCAD51F21EEC6004977AB /* UIColor+Expanded.m */,
+				C3CC022B1F23891400F659FD /* FTCategory */,
+				C3CC022A1F2388BD00F659FD /* PrefixHeader.pch */,
 				778807D41E10FC1500803273 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -266,6 +320,7 @@
 			isa = PBXGroup;
 			children = (
 				771067361E121686001E87EE /* chuan@2x.png */,
+				C3CC025F1F23896300F659FD /* AiqiyiAnimation */,
 				944DCAD01F21EEA7004977AB /* 圆弧进度2 */,
 				9434CD9B1F21A686000E4187 /* 雷达动画 */,
 				7710672F1E1214D3001E87EE /* 正余弦动画 */,
@@ -293,6 +348,54 @@
 				944DCAD21F21EEB4004977AB /* LXCircle.m */,
 			);
 			path = "圆弧进度2";
+			sourceTree = "<group>";
+		};
+		C3CC022B1F23891400F659FD /* FTCategory */ = {
+			isa = PBXGroup;
+			children = (
+				C3CC022C1F23891400F659FD /* ChineseToPinyin.h */,
+				C3CC022D1F23891400F659FD /* ChineseToPinyin.m */,
+				C3CC022E1F23891400F659FD /* FTTextField.h */,
+				C3CC022F1F23891400F659FD /* FTTextField.m */,
+				C3CC02301F23891400F659FD /* LxButton.h */,
+				C3CC02311F23891400F659FD /* LxButton.m */,
+				C3CC02321F23891400F659FD /* LXTextView.h */,
+				C3CC02331F23891400F659FD /* LXTextView.m */,
+				C3CC02341F23891400F659FD /* NSString+LXCalender.h */,
+				C3CC02351F23891400F659FD /* NSString+LXCalender.m */,
+				C3CC02361F23891400F659FD /* QBQuSegmentView.h */,
+				C3CC02371F23891400F659FD /* QBQuSegmentView.m */,
+				C3CC02381F23891400F659FD /* UIButton+ImageTitleSpacing.h */,
+				C3CC02391F23891400F659FD /* UIButton+ImageTitleSpacing.m */,
+				C3CC023A1F23891400F659FD /* UIColor+Expanded.h */,
+				C3CC023B1F23891400F659FD /* UIColor+Expanded.m */,
+				C3CC023C1F23891400F659FD /* UIImage+colorImage.h */,
+				C3CC023D1F23891400F659FD /* UIImage+colorImage.m */,
+				C3CC023E1F23891400F659FD /* UILabel+LXLabel.h */,
+				C3CC023F1F23891400F659FD /* UILabel+LXLabel.m */,
+				C3CC02401F23891400F659FD /* UITextField+TintAjust.h */,
+				C3CC02411F23891400F659FD /* UITextField+TintAjust.m */,
+				C3CC02421F23891400F659FD /* UIView+Frame.h */,
+				C3CC02431F23891400F659FD /* UIView+Frame.m */,
+				C3CC02441F23891400F659FD /* UIView+FTCornerdious.h */,
+				C3CC02451F23891400F659FD /* UIView+FTCornerdious.m */,
+				C3CC02461F23891400F659FD /* UIView+FTViewAdaptation.h */,
+				C3CC02471F23891400F659FD /* UIView+FTViewAdaptation.m */,
+				C3CC02481F23891400F659FD /* UIView+Toast.h */,
+				C3CC02491F23891400F659FD /* UIView+Toast.m */,
+				C3CC024A1F23891400F659FD /* UIViewAdditions.h */,
+				C3CC024B1F23891400F659FD /* UIViewAdditions.m */,
+			);
+			path = FTCategory;
+			sourceTree = "<group>";
+		};
+		C3CC025F1F23896300F659FD /* AiqiyiAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C3CC02601F23896300F659FD /* AQYAnimationView.h */,
+				C3CC02611F23896300F659FD /* AQYAnimationView.m */,
+			);
+			path = AiqiyiAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -434,22 +537,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				9434CDA11F21A722000E4187 /* RadarViewController.m in Sources */,
+				C3CC02571F23891400F659FD /* UIView+Frame.m in Sources */,
+				C3CC02541F23891400F659FD /* UIImage+colorImage.m in Sources */,
+				C3CC02561F23891400F659FD /* UITextField+TintAjust.m in Sources */,
+				C3CC024C1F23891400F659FD /* ChineseToPinyin.m in Sources */,
+				C3CC02521F23891400F659FD /* UIButton+ImageTitleSpacing.m in Sources */,
+				C3CC024F1F23891400F659FD /* LXTextView.m in Sources */,
 				9434CD9E1F21A6B1000E4187 /* UIView+RadarAnimation.m in Sources */,
+				C3CC02621F23896300F659FD /* AQYAnimationView.m in Sources */,
+				C3CC025A1F23891400F659FD /* UIView+Toast.m in Sources */,
 				944DCAD91F21EEDE004977AB /* Arc2ViewController.m in Sources */,
+				C3CC02501F23891400F659FD /* NSString+LXCalender.m in Sources */,
 				771067321E121517001E87EE /* shipeAnimation.m in Sources */,
 				7710672A1E121491001E87EE /* LXHubView.m in Sources */,
+				C3CC02531F23891400F659FD /* UIColor+Expanded.m in Sources */,
 				778808131E11029700803273 /* RoundViewController.m in Sources */,
 				771067351E1215C1001E87EE /* ShipeViewController.m in Sources */,
+				C3CC025E1F23894B00F659FD /* AQiYiViewController.m in Sources */,
+				C3CC025B1F23891400F659FD /* UIViewAdditions.m in Sources */,
 				7710671B1E1213C1001E87EE /* WaveViewController.m in Sources */,
 				7710672D1E121491001E87EE /* LXWaveProgress.m in Sources */,
 				7710672C1E121491001E87EE /* LXWave.m in Sources */,
 				944DCAD31F21EEB4004977AB /* LXCircle.m in Sources */,
 				778807DB1E10FC1500803273 /* ViewController.m in Sources */,
+				C3CC02511F23891400F659FD /* QBQuSegmentView.m in Sources */,
 				778808101E11028E00803273 /* ArcViewController.m in Sources */,
 				7710672B1E121491001E87EE /* ArcProgress.m in Sources */,
+				C3CC024E1F23891400F659FD /* LxButton.m in Sources */,
 				7710672E1E121491001E87EE /* CircleView.m in Sources */,
+				C3CC02551F23891400F659FD /* UILabel+LXLabel.m in Sources */,
+				C3CC024D1F23891400F659FD /* FTTextField.m in Sources */,
+				C3CC02591F23891400F659FD /* UIView+FTViewAdaptation.m in Sources */,
 				778807D81E10FC1500803273 /* AppDelegate.m in Sources */,
-				944DCAD61F21EEC6004977AB /* UIColor+Expanded.m in Sources */,
+				C3CC02581F23891400F659FD /* UIView+FTCornerdious.m in Sources */,
 				771067111E1212E7001E87EE /* HubViewController.m in Sources */,
 				778807D51E10FC1500803273 /* main.m in Sources */,
 				7788080C1E10FF0900803273 /* BasicViewController.m in Sources */,
@@ -602,6 +722,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ProgressViewDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = ProgressViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = miss.liuxinxin.ProgressViewDemo;
@@ -614,6 +735,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YQSV9JS5Z8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ProgressViewDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = ProgressViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = miss.liuxinxin.ProgressViewDemo;
