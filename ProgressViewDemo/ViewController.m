@@ -50,7 +50,7 @@
 {
     if (!_datas) {
         _datas =[NSMutableArray array];
-        [_datas  addObject:@"Arc"];
+        [_datas addObject:@"Arc"];
         [_datas addObject:@"Arc2"];
         [_datas addObject:@"Round"];
         [_datas addObject:@"Hub"];
@@ -58,6 +58,8 @@
         [_datas addObject:@"Shipe"];
         [_datas addObject:@"Radar"];
         [_datas addObject:@"AQiYi"];
+        [_datas addObject:@"AddShop"];
+
     }
     return _datas;
 }
