@@ -20,6 +20,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    self.title = @"动画";
     self.tableview.delegate = self;
     self.tableview.dataSource = self;
     self.tableview.tableFooterView =[UIView new];
@@ -59,6 +60,7 @@
         [_datas addObject:@"Radar"];
         [_datas addObject:@"AQiYi"];
         [_datas addObject:@"AddShop"];
+        [_datas addObject:@"Roation"];
 
     }
     return _datas;
